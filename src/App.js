@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+/* import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -19,6 +19,22 @@ function App() {
         </a>
       </header>
     </div>
+  );
+}
+
+export default App; */
+
+import React from "react";
+import "./App.css";
+import Navbar from "./componentes/NavBar/NavBar";
+import ItemListContainer from "../src/componentes/ItemListContainer/ItemListContainer";
+
+function App() {
+  return (
+    <>
+      <Navbar />
+      <ItemListContainer message='Bienvenido a RacingStore.' name='Academico!' />  
+    </>
   );
 }
 
