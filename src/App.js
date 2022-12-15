@@ -23,7 +23,7 @@ function App() {
 }
 
 export default App; */
-
+import Navbar from "../public/index.html";
 import React from "react";
 import "./App.css";
 import Navbar from "./componentes/NavBar/NavBar";
@@ -31,10 +31,19 @@ import ItemListContainer from "../src/componentes/ItemListContainer/ItemListCont
 
 function App() {
   return (
+    
     <>
       <Navbar />
       <ItemListContainer message='Bienvenido a RacingStore.' name='Academico!' />  
+
+        <div>
+            <h1>Bienvenido a RacingStore</h1>
+             <p>sitio oficial de racing</p>
+        </div>
+    
     </>
+   
+    
   );
 }
 
